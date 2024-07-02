@@ -77,18 +77,18 @@ export default function LandingHero() {
           <ContentStyle>
             <motion.div variants={varFadeInRight}>
               <Typography variant="h1" sx={{ color: 'common.white' }}>
-                Start a <br />
-                new project <br /> with
+                Go  <br />
+                shopping <br /> with
                 <Typography component="span" variant="h1" sx={{ color: 'primary.main' }}>
-                  &nbsp;Minimal
+                  &nbsp;Javis
                 </Typography>
               </Typography>
             </motion.div>
 
             <motion.div variants={varFadeInRight}>
               <Typography sx={{ color: 'common.white' }}>
-                The starting point for your next project based on easy-to-customize Material-UI ©
-                helps you build apps faster and better.
+                The starting point for your next experience based on easy-to-customize Chatbot Javis ©
+                helps you shopping faster and better.
               </Typography>
             </motion.div>
 
