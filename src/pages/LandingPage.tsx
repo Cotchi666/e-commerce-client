@@ -29,9 +29,9 @@ const ContentStyle = styled('div')(({ theme }) => ({
 
 export default function LandingPage() {
   return (
-    <RootStyle title="The starting point for your next project | Minimal-UI" id="move_top">
+    <RootStyle title="The starting point for your shopping | Tạp Hóa E-Com" id="move_top">
       <LandingHero />
-      <ContentStyle>
+      {/* <ContentStyle>
         <LandingMinimal />
         <LandingHugePackElements />
         <LandingDarkMode />
@@ -39,7 +39,7 @@ export default function LandingPage() {
         <LandingCleanInterfaces />
         <LandingPricingPlans />
         <LandingAdvertisement />
-      </ContentStyle>
+      </ContentStyle> */}
     </RootStyle>
   );
 }
